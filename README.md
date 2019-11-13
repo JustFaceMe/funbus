@@ -8,6 +8,7 @@ this.setData({
   astring: result,
 });
 ```
+
 4. 间接调用某个不在当前页面堆栈中的页面中的函数
 ```javascript
 // 由于B页面跳转C是重定向 redirectTo 跳过来的，所以B页面不在路由堆栈内，我们要先注册，然后再B页面里适当的时机出发该函数。
@@ -17,4 +18,5 @@ app.funbus.subscribe('b-changebgc', { path: 'b/b', method: 'changeBgColor', para
 // 触发在C页面注册的函数
 app.funbus.notifyEvent('b-changebgc');
 ```
+5. 具体使用规则可下载demo,在demo中均有体现
 
