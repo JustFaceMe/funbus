@@ -18,5 +18,6 @@ app.funbus.subscribe('b-changebgc', { path: 'b/b', method: 'changeBgColor', para
 // 触发在C页面注册的函数
 app.funbus.notifyEvent('b-changebgc');
 ```
-5. 具体使用规则可下载demo,在demo中均有体现
+5. 具体使用规则可下载demo,在demo中均有体现。
+6. funbus.js 中的代码可直接复制使用。
 
