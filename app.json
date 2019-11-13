@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/a/a",
+    "pages/b/b",
+    "pages/c/c"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

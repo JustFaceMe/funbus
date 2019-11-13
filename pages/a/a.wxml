@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view style='width:100%;height:100%;background-color:{{bgcolor}};'>
+
+  <view class="des">这是A页面，提供了 B/C 页面需要的数据获取方法</view>
+
+  <view class="button" bindtap="navigateToB">跳转到B页面</view>
+  
+</view>

@@ -1,0 +1,9 @@
+<!--pages/b/b.wxml-->
+<view style='width:100%;height:100%;background-color:{{bgcolor}};'>
+
+  <view>下面的内容是通过funbus从A页面获取的：</view>
+  <view style="color:red;">{{astring}}</view>
+
+  <view class="button" bindtap="navigateToC">跳转到C页面</view>
+
+</view>

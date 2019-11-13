@@ -1,0 +1,7 @@
+<!--pages/b/b.wxml-->
+<view>下面的内容是通过funbus从A页面获取的：</view>
+<view style="color:red;">{{astring}}</view>
+
+<view class="button" bindtap="changeBgColor">改变A/B页面的背景色</view>
+
+<view class="button" bindtap="revokeBgColor">恢复A/B页面的背景色</view>
